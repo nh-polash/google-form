@@ -1,0 +1,81 @@
+@import url('https://fonts.maateen.me/solaiman-lipi/font.css');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #000;
+    background-color: #C9E2D1;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 20px;
+    font-family: 'SolaimanLipi', sans-serif;
+}
+
+.registration-form .heading .card {
+   border-top: 10px solid #258B45;
+}
+
+.registration-form .card {
+    margin-bottom: 20px;
+}
+
+.registration-form .heading p:last-child {
+    color: red;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.registration-form .heading p {
+    font-size: 15px;
+}
+
+.registration-form .heading h1 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.registration-form form .card label span {
+    color: red;
+    font-size: 20px;
+}
+
+.registration-form form .card input[type="text"], .registration-form form .card input[type="email"] {
+    transition: all 0.5s ease-in-out;
+}
+
+.registration-form form .card input:focus {
+    box-shadow: none;
+}
+
+.registration-form form .card input[type="text"]:focus, .registration-form form .card input[type="email"]:focus {
+    border: 2px solid #007965;
+    height: 50px;
+}
+
+.registration-form form .card input[type="radio"] {
+    background-color: #258B45;
+}
+
+.registration-form form .btn {
+    background-color: #258B45;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    border: 2px solid transparent;
+}
+
+.registration-form form .btn:hover {
+    background-color: transparent;
+    border: 2px solid #258B45;
+    color: #258B45;
+}
+
+.registration-form {
+    margin-bottom: 40px;
+}
